@@ -1,16 +1,35 @@
-# React + Vite
+# 🪐 Rick & Morty - Developer Mini Dashboard
+> Tugas Praktikum Mandiri: Pengembangan Aplikasi Web Terintegrasi API (PjBL)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+### 📋 Spesifikasi Proyek & Kompetensi Modul
+Aplikasi ini dibangun menggunakan **React** dan **Tailwind CSS** dengan fokus utama mengimplementasikan manajemen state asinkronus serta protokol integrasi REST API (GET & POST).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+| Komponen Modul | Deskripsi Implementasi Sistem | Status |
+| :--- | :--- | :---: |
+| **GET Method (Endpoint 1)** | Fetching data karakter secara dinamis dari Rick & Morty API |  |
+| **GET Method (Endpoint 2)** | Menampilkan total data dimensi lokasi universal (`/location`) |  |
+| **POST Method** | Sinkronisasi form kustom lokal ke JSONPlaceholder Backend API |  |
+| **Search Features** | Filter pencarian karakter berdasarkan pencocokan string nama (*Real-time State*) |  |
+| **Filtering Categories** | Klasifikasi rendering data berdasarkan status kehidupan (*Alive, Dead, Unknown*) |  |
+| **UX & Handling State** | Penyediaan indikator *Loading Spinner* dan penanganan *Error Handling UI* |  |
+| **Design System** | Desain responsif berbasis utilitas *Dark Mode CSS* |  |
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🛠️ Arsitektur Teknologi & Library
+* **Frontend Library:** React.js (Functional Components & Hooks)
+* **CSS Framework:** Tailwind CSS v3 (Custom Utility Build)
+* **HTTP Client:** Axios (Promise-based asynchronous requests)
+* **Build Tool:** Vite Ecosystem
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🚀 Panduan Instalasi Lokal
+
+Ikuti instruksi di bawah ini untuk menjalankan repositori proyek ini di komputer Anda:
+
+1. **Gunting / Clone Repositori:**
+   ```bash
+   git clone [https://github.com/username-anda/nama-repo.git](https://github.com/username-anda/nama-repo.git)
