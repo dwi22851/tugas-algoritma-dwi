@@ -1,35 +1,4 @@
-# 🪐 Rick & Morty - Developer Mini Dashboard
-> Tugas Praktikum Mandiri: Pengembangan Aplikasi Web Terintegrasi API (PjBL)
+Aplikasi web Rick & Morty Mini Dashboard ini merupakan sebuah platform berbasis React dan Tailwind CSS yang dirancang untuk mengintegrasikan data dari API publik Rick & Morty serta mensimulasikan manipulasi data menggunakan JSONPlaceholder API. Di dalam aplikasi ini, pengguna dapat menjelajahi daftar karakter secara dinamis melalui fitur pencarian dan filter, melihat total dimensi lokasi yang tersedia melalui metode GET, serta melakukan simulasi penambahan karakter baru ke server lewat formulir interaktif yang memanfaatkan metode POST. Seluruh arsitektur aplikasi ini dikemas dalam tampilan antarmuka Dark Mode yang responsif (mobile-friendly) serta dilengkapi dengan sistem state management yang matang untuk menangani indikator pemuatan data (loading spinner), penanganan error (error handling), dan perendangan kondisional demi memberikan pengalaman pengguna yang mulus dan informatif.
 
----
-
-### 📋 Spesifikasi Proyek & Kompetensi Modul
-Aplikasi ini dibangun menggunakan **React** dan **Tailwind CSS** dengan fokus utama mengimplementasikan manajemen state asinkronus serta protokol integrasi REST API (GET & POST).
-
-| Komponen Modul | Deskripsi Implementasi Sistem | Status |
-| :--- | :--- | :---: |
-| **GET Method (Endpoint 1)** | Fetching data karakter secara dinamis dari Rick & Morty API |  |
-| **GET Method (Endpoint 2)** | Menampilkan total data dimensi lokasi universal (`/location`) |  |
-| **POST Method** | Sinkronisasi form kustom lokal ke JSONPlaceholder Backend API |  |
-| **Search Features** | Filter pencarian karakter berdasarkan pencocokan string nama (*Real-time State*) |  |
-| **Filtering Categories** | Klasifikasi rendering data berdasarkan status kehidupan (*Alive, Dead, Unknown*) |  |
-| **UX & Handling State** | Penyediaan indikator *Loading Spinner* dan penanganan *Error Handling UI* |  |
-| **Design System** | Desain responsif berbasis utilitas *Dark Mode CSS* |  |
-
----
-
-### 🛠️ Arsitektur Teknologi & Library
-* **Frontend Library:** React.js (Functional Components & Hooks)
-* **CSS Framework:** Tailwind CSS v3 (Custom Utility Build)
-* **HTTP Client:** Axios (Promise-based asynchronous requests)
-* **Build Tool:** Vite Ecosystem
-
----
-
-### 🚀 Panduan Instalasi Lokal
-
-Ikuti instruksi di bawah ini untuk menjalankan repositori proyek ini di komputer Anda:
-
-1. **Gunting / Clone Repositori:**
-   ```bash
-   git clone [https://github.com/username-anda/nama-repo.git](https://github.com/username-anda/nama-repo.git)
+Cara Menjalankan Proyek Secara Lokal
+Untuk menjalankan aplikasi ini di perangkat Anda, silakan unduh repositori ini terlebih dahulu menggunakan perintah git clone, kemudian buka terminal di dalam direktori proyek lalu jalankan npm install untuk memasang seluruh library yang dibutuhkan, dan terakhir eksekusi perintah npm run dev untuk memulai server lokal pengembangan agar aplikasi dapat diakses melalui browser.
